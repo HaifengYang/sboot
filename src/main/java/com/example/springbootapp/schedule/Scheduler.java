@@ -10,7 +10,7 @@ import java.util.Date;
 @Component
 public class Scheduler {
 //    @Scheduled(cron = "0 * 18 * * ?")
-    @Scheduled(fixedRate = 1000, initialDelay = 30000)
+//    @Scheduled(fixedRate = 1000, initialDelay = 30000)
     public void cronJobSch(){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
         Date now = new Date();
